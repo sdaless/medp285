@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>CSS Grid Test</title>
+
+  <style>
+
+    #layout {
+      display: grid;
+      grid-template-rows: 100px, 100px, 100px;
+      grid-template-columns: repeat (3, 1fr);
+      /* grid-template-columns: 200px, 200px, 200px; */
+      /* or "grid-templace-columns: repeat (3, 1fr)"; fr stands for fraction */
+      min-width: 90vw;
+      min-height: 90vh;
+      /* gutters/margins between child elements */
+      grid-column-gap: 2em;
+      grid-row-gap: 3em; /* for both columns and rows when same value */
+    }
+
+    div {
+      border: 1px solid red;
+      text-align: center;
+    }
+
+  </style>
+
+  </head>
+
+  <body>
+
+      <div id="layout">
+
+        <div id="one">One</div>
+        <div id="two">Two</div>
+        <div id="three">Three</div>
+        <div id="four">Four</div>
+        <div id="five">Five</div>
+        <div id="six">Six</div>
+        <div id="seven">Seven</div>
+        <div id="eight">Eight</div>
+        <div id="nine">Nine</div>
+<!--
+
+        <div id="ten">Ten</div> --> 
+      
+
+      </div>
+
+  </body>
+</html>
