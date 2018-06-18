@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+	<title>Before you.</title>
+<style>
+        body {
+            background-color: rgb(207, 195, 222);
+            color: white;
+        }
+
+		#fullGrid {
+            display: grid;
+            grid-template-columns: 1fr;
+			grid-template-rows: 1fr;
+            height: 100vh;
+            max-height: 100%;
+            max-width: 100%;
+            width: 100vw;
+		}
+        #wrapper {
+            background: rgba(255, 255, 255, 1);
+            border-top: 1em solid rgba(255, 255, 255, 1);
+            border-right: 1em solid rgba(255, 255, 255, 1);
+            border-bottom: .25em solid rgba(255, 255, 255, 1);
+            border-left: 1em solid rgba(255, 255, 255, 1);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3, 1fr);
+            justify-content: center;
+            margin: 10em auto;
+            width: 1620px;
+        }
+        .text {
+            font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+            font-size: 5em;
+            top: 0;
+            left: 0;
+            line-height: 1em;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+            z-index: -1;
+            overflow: hidden;
+        }
+</style>
+<meta charset="UTF-8">
+</head>
+<body>
+	<div id="fullGrid" align="center">
+        <div class="text">"we all get sad sometimes..."</div>
+        <div id="wrapper">
+            <div class="gif">
+                <img src="GIFS/anime_legs.gif">
+            </div>
+			
+            <div class="gif">
+                <img src="GIFS/car.gif">
+            </div>
+			
+            <div class="gif">
+                <img src="GIFS/flowers.gif">
+            </div>
+			
+            <div class="gif">
+                <img src="GIFS/sleep.gif">
+            </div>
+			
+            <div class="gif">
+                <img src="GIFS/tech.gif">
+            </div>
+            <div class="gif">
+                <img src="GIFS/walking.gif">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
