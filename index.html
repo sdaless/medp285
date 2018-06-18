@@ -56,6 +56,20 @@
 			min-width: 10em;
 			background-color: #999;
 			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 110;
+		}
+		
+		.dropdown-content a {
+			background-color: rgba(0,0,0,0.8);
+			color: white;
+			padding: .5em 2em .5em 1em;
+			text-decoration: none;
+			border-bottom: 1px solid gray;
+			display: block;
+		}
+		
+		.dropdown:hover .dropdown-content {
+			display: block;
 		}
 		
 	</style>
@@ -68,7 +82,14 @@
 			<ul>
 				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#project">Projects</a></li>
+				<li class="dropdown">Projects
+					<div> class="dropdown-content">
+						<a href="Hw5Grids/Grid1.html">Grid 1</a>
+						<a href="cssFloat.html">CSS Float</a>
+						<a href="Hw2Video/VideoDisplay.html">Video Player</a>
+						<a href="Hw1PhotoEssay/photoEssay.html">Photo Essay</a>
+					</div>
+				</li>
 				<li><a href="#news">News</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
