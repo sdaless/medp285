@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
 body {
   font-family: "Archivo", sans-serif;
   background-image: url(sunset.png);
