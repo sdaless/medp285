@@ -26,7 +26,8 @@ div {
 
 h1 {
   font-family: "Shrikhand", serif;
-  font-size: 40px;
+  font-size: 6vw;
+  padding-top: 0.5vh;
   text-align: center;
   color: #EA8A5D;
   text-shadow: 4px 4px 4px solid #BCD1D6;
