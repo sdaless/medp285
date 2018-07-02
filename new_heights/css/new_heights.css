@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+body {
+  font-family: "Archivo", sans-serif;
+  background-image: url(sunset.png);
+  background-color: #FFDA97;
+}
+
+/* header {
+  width: 810px;
+  height: 150px;
+  color: #FFDA97;
+}
+
+article {
+
+} */
+
+div {
+   word-wrap: break-word;
+   width: 800px;
+   padding-left: 317px;
+   padding-top: 25px;
+}
+
+h1 {
+  font-family: "Shrikhand", serif;
+  font-size: 40px;
+  text-align: center;
+  color: #EA8A5D;
+  text-shadow: 4px 4px 4px solid #BCD1D6;
+  /* 0px 4px 7px #EA8A5D;*/
+}
+
+nav {
+  position: sticky;
+  /* do I have to specify anything for the sticky? */
+  width: 807px;
+  height: 40px;
+  left: 317px;
+  top: 132px;
+  background: #EA8A5D;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+nav a {
+  font-family: "Shrikhand", serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 40px;
+  margin-left: 40px;
+  /* why is this not aligning center */
+  color: #FFDA97;
+  /* border: 1px solid rgba(0, 0, 0, 0.25); */
+  /* borders not showing up AROUND TEXT/FONT */
+  /* padding-right: 1em; */
+}
+
+/* hr {
+  color: #EA8A5D;
+  padding-top: 25px;
+  /* horizontal borders not showing color?
+} */
+
+.quote {
+  font-family: "Archivo Narrow", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #EA8A5D;
+  text-align: center;
+  
+}
+
+/* .centerpiece {
+  position: absolute;
+  width: 807px;
+  height: 1024px;
+  left: calc(50% - 807px/2 + 0.5px);
+  top: calc(50% - 1024px/2);
+  background: #FFDA97;
+  border: 3px solid #EA8A5D;
+} */
