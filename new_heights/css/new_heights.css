@@ -14,6 +14,8 @@ body {
   background-color: #FFDA97;
 }
 
+/* should this be in the body tag? ^^^ it probably needs it's own class, because this tag is prolly needed for the centerpiece */
+
 /* header {
   width: 810px;
   height: 150px;
