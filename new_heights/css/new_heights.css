@@ -4,6 +4,10 @@
 body {
   font-family: "Archivo", sans-serif;
   background-image: url(sunset.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
   background-color: #FFDA97;
 }
 
