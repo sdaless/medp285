@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+
+/* HEADER */
+.title {
+	font-family: "Shrikhand", serif;
+	font-size: 6vw;
+	text-align: center;
+	color: #A1461B;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation */
+ul {
+	padding: 0;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	list-style-type: none;
+	background-color: #A1461B;
+	position: relative;
+}
+
+/* List Elements */
+li {
+	display: inline-block;
+}
+
+/* List Links */
+li a {
+	display: block;
+	font-family: "Shrikhand", serif;
+	font-size: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: #FFDA97;
+} 
+
+li a:hover {
+    background-color: #C57B57;
+}
+
+.active {
+    background-color: #C57B57;
+}
+
+
+/* BODY */
+body {
+	font-family: "Archivo", sans-serif;
+	color: #A1461B;
+	background-color: #FFDA97;
+	background-image: url(sunset_edit.png);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	background-attachment: fixed;
+  	height: 100vh;
+	overflow-x: hidden;
+ 	/* width: 100vw; */
+}
+
+.lightbox {
+	padding: 1em;
+	background-color: #FFDA97;
+	width: 80vw;
+	margin-left: 7vw;
+	position: absolute;
+	/* align: center; */
+}
+
+h2 {
+	/* font-family: "Shrikhand", serif; */
+	color: #6E7BAA;
+}
+
+.quote {
+	font-family: "Archivo Narrow", sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	color: #6E7BAA;
+	word-wrap: break-word;
+	padding-bottom: 1em;
+	width: 50%;
+	display: block;
+	margin: auto;
+	/* position: relative; */
+}
+
+/* Image Styles */
+
+div.polaroid {
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+	width: 100%
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#leader_image {
+	margin: 1em;
+}
+
+#member_image {
+	margin: 1em;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Form Styles */
+.pass {
+	padding-top: 1em;
+	display: block;
+	margin: auto;
+}
+
+/* FOOTER */
+
+/* footer {
+	background: #A1461B;
+	width: 83vw;
+	margin: 2vw auto; 
+	position: absolute;
+} */
+
+.yeltext {
+	color: #FFDA97;
+	margin-left: 25%;
+	padding: 1em;
+}
+
+/* FORM RULES */
+
+form legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+
+form label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+
+form fieldset {
+  margin-bottom: 10px;
+  background-color: #FFDA97;
+}
+
+form fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
