@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+
+/* HEADER */
+.title {
+	font-family: "Shrikhand", serif;
+	font-size: 6vw;
+	text-align: center;
+	color: #960886;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation */
+ul {
+    position: fixed;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	list-style-type: none;
+	background-color: #441151;
+	margin: 0;
+	padding: 0;
+}
+
+/* List Elements */
+li {
+	display: inline-block;
+}
+
+/* List Links */
+li a {
+	display: block;
+	font-family: "Shrikhand", serif;
+	font-size: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: #ECFD6A;
+} 
+
+li a:hover {
+    background-color: #960886;
+}
+
+.active {
+    background-color: #960886;
+}
+
+
+/* BODY */
+body {
+	font-family: "Archivo", sans-serif;
+	background-color: #ECFD6A;
+}
+
+.quote {
+	font-family: "Archivo Narrow", sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	color: #960886;
+	word-wrap: break-word;
+	padding-top: 10vh;
+	width: 50%;
+	margin-left: 25%;
+	/* position: relative; */
+}
+
+/* FOOTER */
+
+footer {
+	background: #441151;
+	width: 100%;
+}
+
+.yeltext {
+	color: #ECFD6A;
+}
+
+
+
+

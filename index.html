@@ -1,178 +1,29 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-		<title>Sara's MEDIA285 Index</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="An example of a page using the video and audio tags">
-		<meta name="author" content="Sara D.">
+		<title>EXPAND YOUR MIND</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/new_heights.css">
 	</head>
-
-	<style>
-		header {
-			display: block;
-			justify-content: center;
-			margin: 0 auto;
-			padding: 5em;
-			width: 1280px;
-		}
-		
-		body { 
-			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-			background-color: rgb(199,179,220);
-			color: #fff;
-		}
-		
-		nav { 
-			position: fixed;
-			align-self: center;
-			top: 0px;
-			left: 0px;
-			width: 100%;
-			color: #fff;
-			background-color: #fff;
-			padding: 10px;
-			height: 4em;
-			z-index: 100;
-		}
-		
-		
-		nav a {
-			text-decoration: none;
-			color: rgba(132,100,177,1.00);
-			font-size: 1.5em;
-		}
-		
-		
-		nav ul {list-style-type: none}
-		nav ul li{
-			display: inline;
-			margin-top: 0;
-			padding-top: 0;
-			padding-left: 10px;
-			padding-right: 10px;
-			border-right: 2px solid rgb(209,206,212);
-		}
-		
-		nav ul li: last-child {border-right: none}
-		nav a: hover {color: red}
-		
-		.dropdown {
-			cursor: pointer;
-			position: relative;
-			display: inline-block;
-			color: rgba(132,100,177,1.00);
-			font-size: 1.5em;
-		}
-		
-		.dropdown-content {
-			display: none;
-			position: absolute;
-			min-width: 10em;
-			background-color: #fff;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			z-index: 110;
-		}
-		
-		.dropdown-content a {
-			background-color: rgba(0,0,0,0.8);
-			color: #fff;
-			padding: .5em 2em .5em 1em;
-			text-decoration: none;
-			border-bottom: 1px solid #d3d3d3;
-			display: block;
-		}
-		
-		.dropdown:hover .dropdown-content {
-			display: block;
-		}
-		
-	</style>
-	
-	<!-- hover color and last child border not working, neither are some colors?-->
-
 	<body>
-	<!-- navigation -->
-		<nav id="nav">
-			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li class="dropdown">Projects
-					<div class="dropdown-content">
-						<a href="nh_project/index.php">FINAL PROJECT</a>
-						<a href="Hw6Hover/hover.html">Hover</a>
-						<a href="Hw5Grids/Grid1.html">Grid</a>
-						<a href="cssFloat.html">CSS Float</a>
-						<a href="Hw2Video/VideoDisplay.html">Video Player</a>
-						<a href="Hw1PhotoEssay/photoEssay.html">Photo Essay</a>
-					</div>
-				</li>
-				<li><a href="#news">News</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
+		<h1>Expand Your Mind</h1>
+		<!-- for some reason nav links aren't working in index.html? -->
+		<!-- is it permissible to use the <nav> tag, or should I be using a list? -->
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="membership.html">Membership</a>
+			<a href="contactus.html">Contact Us</a>
 		</nav>
- 
 
+		<hr>
 
-		<!-- Home -->
-		<header id="home">
+		<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur urna ac enim maximus, in sollicitudin nunc consequat. Sed venenatis ultricies tincidunt.”</p>
 
-		<img src="Banner/sara640.jpg" alt="A picture of the website's author."
-        srcset="Banner/sara480.jpg 480w,
-                Banner/sara960.jpg 960w,
-                Banner/sara1280.jpg 1280w,"
-         sizes="(max-width: 480px) 100vw,
-    	        (max-width: 1280px) 70vw,
-    	        1280px"> <!-- to see in action use 240px -->
+		<p>[Video Placeholder]</p>
 
-			<video autoplay loop>
-				<source src="video/gob.mp4" type="video/mp4">
-				<source src="video/gob.webm" type="video/webm">
-				<source src="video/gob.ogg" type="video/ogg">
-			</video>
-
-		</header>
-
-		
-		<section id="about">
-			<h1>About</h1>
-			<p>
-				<strong>A Lovely Little Placeholder</strong><br>
-			
-			This might look like a website circa 1995, but it sure don't act like it. This is Sara D'Alessandro's website for MEDP 285: Web Production I, Summer 2018.
-
-			</p>
-		</section>
-		
-
-		<section id="project">
-			<h1>Projects</h1>
-			<p>
-				<strong><a href="Hw1PhotoEssay/photoEssay.html">01: Photo Essay</a></strong><br>
-			
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ex a enim posuere fringilla. Praesent sed massa id leo malesuada imperdiet. Ut dui tortor, maximus vitae felis nec, placerat euismod ex. Donec arcu ipsum, tincidunt ac tristique eget, condimentum at tortor. Maecenas placerat suscipit velit ac eleifend. <a href="#nav">Top</a>
-				
-			</p>
-			
-			<p>
-				<strong><a href="Hw2Video/VideoDisplay.html">02: Video Player</a></strong><br>
-			
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ex a enim posuere fringilla. Praesent sed massa id leo malesuada imperdiet. Ut dui tortor, maximus vitae felis nec, placerat euismod ex. Donec arcu ipsum, tincidunt ac tristique eget, condimentum at tortor. Maecenas placerat suscipit velit ac eleifend. <a href="#nav">Top</a>
-				
-			</p>
-			
-			<p>
-				<strong><a href="cssFloat.html">04: Floating</a></strong><br>
-			
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ex a enim posuere fringilla. Praesent sed massa id leo malesuada imperdiet. Ut dui tortor, maximus vitae felis nec, placerat euismod ex. Donec arcu ipsum, tincidunt ac tristique eget, condimentum at tortor. Maecenas placerat suscipit velit ac eleifend. <a href="#nav">Top</a>
-				
-			</p>
-		
-			
-		</section>
-			
+		<hr>
 
 	</body>
-
 </html>
