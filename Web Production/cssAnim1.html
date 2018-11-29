@@ -1,0 +1,60 @@
+<html>
+<head>
+	<style>
+	@keyframes example1 {
+		from {background-color: red;}
+		to {background-color: yellow;}
+	}
+
+	@keyframes example2 {
+		0% {background-color: red;}
+		25% {background-color: yellow;}
+		50% {background-color: blue;}
+		75% {background-color: purple;}
+		100% {background-color: green;}
+	}
+
+	@keyframes example3 {
+		0% {background-color: red; left: 0px; top: 0px;}
+		25% {background-color: yellow; left: 200px; top: 0px;}
+		50% {background-color: blue; left: 200px; right: 200px;}
+		75% {background-color: green; left: 0px; right: 200px;}
+		100% {background-color: red; left: 200px; right: 200px;}
+	}
+
+	.box1 {
+		width: 100px;
+		height: 100px;
+		margin: 15px;
+		background-color: red;
+		animation-name: example1;
+		animation-duration: 4s;
+	}
+
+	.box2 {
+		width: 100px;
+		height: 100px;
+		margin: 15px;
+		background-color: red;
+		animation-name: example2;
+		animation-duration: 4s;
+		animation-iteration-count: 3;
+	}
+
+	.box3 {
+		width: 100px;
+		height: 100px;
+		margin: 15px;
+		position: relative;
+		background-color: red;
+		animation-name: example3;
+		animation-duration: 5s;
+	}
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>

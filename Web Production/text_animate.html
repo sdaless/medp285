@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Text</title>
+	<style>
+		@keyframes topFadeOut {
+			0% {
+				position: absolute;
+				top: -10%;
+				opacity: 0;
+			}
+			75% {
+				position: absolute;
+				top: 25%;
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+
+		@keyframes bottomFadeOut {
+			0% {
+				position: absolute;
+				bottom: -10%;
+				opacity: 0;
+			}
+			75% {
+				position: absolute;
+				bottom: 25%;
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -10%;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -10%;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10%;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+/* rem is root em */
+.first-text {
+  font-size: 4em;
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: #000000;
+  animation-iteration-count: infinite;
+}
+
+.second-text {
+  font-size: 3em;
+  position: absolute;
+  top: 10%;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 3s;
+  animation-duration: 6s;
+  color: #484848;
+  animation-iteration-count: infinite;
+}
+
+.third-text {
+  font-size: 2em;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  opacity: 0;
+  animation-name: topFadeOutVertical;
+  animation-delay: 7.5s;
+  animation-duration: 6s;
+  color: #484848;
+  white-space: nowrap;
+  animation-iteration-count: infinite;
+}
+.fourth-text {
+  font-size: 5em;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  opacity: 0;
+  color: #A9A9A9;
+  animation-name: fadeInOut;
+  animation-delay: 8.5s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+.fifth-text {
+  font-size: 6em;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #808080;
+  animation-name: bottomFadeOut;
+  animation-delay: 7s;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+p { font-family: "Courier New", monospace, serif;
+
+}
+
+	</style>
+</head>
+<body>
+	<div class="first-text"><p>I confess</p></div>
+  <div class="second-text"><p>I confess</p></div>
+  <div class="third-text"><p>To the rumor of us</p></div>
+  <div class="fourth-text"><p>But you didn't come and speak to me</p></div>
+  <div class="fifth-text"><p>Or put my heart at ease.</p></div>
+</body>
+</html>
